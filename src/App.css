@@ -28,7 +28,7 @@ ul {
 
 .link {
   cursor: pointer;
-  @apply text-blue-500 hover:text-blue-700 underline;
+  @apply text-slate-500 hover:text-slate-500 underline;
 }
 
 .clickable {

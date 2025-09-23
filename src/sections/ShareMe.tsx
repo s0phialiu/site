@@ -4,7 +4,7 @@ import sophiapic from "../assets/sophiapic.png";
 function ShareMe() {
   return (
     <div className="">
-    <div className="flex items-center justify-center mt-25">
+    <div className="flex items-center justify-center lg:mt-20 mt-0">
       <img
         src={sophiapic}
         alt="A picture of me wearing a blue rugby style shirt against a sunset."

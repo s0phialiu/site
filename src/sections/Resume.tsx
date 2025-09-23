@@ -1,5 +1,6 @@
+import { MdSecurity } from "react-icons/md"
 import Accomplishment from "../components/Accomplishment"
-import { FaMicrosoft, FaTractor, FaUniversity } from "react-icons/fa"
+import { FaApple, FaHackerNews, FaLaptop, FaMicrosoft, FaTractor, FaUniversity } from "react-icons/fa"
 
 export function Resume() {
     return (
@@ -57,7 +58,7 @@ export function Resume() {
                 <Accomplishment
                     title="President of Women in CyberSecurity UIUC"
                     date="Apr 2023 - Jul 2024"
-                    icon={FaTractor}
+                    icon={MdSecurity}
                     description={[
                         "Spearheaded 5 Capture the Flag challenges and weekly technical workshops on topics including fintech security, secure coding, and threat modeling, empowering 50+ members to explore their passion for cyber security."
                     ]}
@@ -65,7 +66,7 @@ export function Resume() {
                 <Accomplishment
                     title="iOS Lead at HackIllinois"
                     date="Oct 2022 - May 2024"
-                    icon={FaMicrosoft}
+                    icon={FaApple}
                     description={[
                         "Led 3 developers to build iOS app in Swift, serving 1000+ attendees at HackIllinois, UIUC’s flagship hackathon.",
                         "Enhanced hackathon experience by adding interactive schedule, leader board, rewards system, and animations.",
