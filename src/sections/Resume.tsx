@@ -1,6 +1,6 @@
 import { MdSecurity } from "react-icons/md"
 import Accomplishment from "../components/Accomplishment"
-import { FaApple, FaHackerNews, FaLaptop, FaMicrosoft, FaTractor, FaUniversity } from "react-icons/fa"
+import { FaApple, FaMicrosoft, FaTractor, FaUniversity } from "react-icons/fa"
 
 export function Resume() {
     return (
