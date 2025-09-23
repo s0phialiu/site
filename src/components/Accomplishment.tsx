@@ -16,7 +16,7 @@ function Accomplishment(props: IAccomplishmentProps) {
 
   const descriptionPortion = () => {
     return (
-      <div className="ml-5">
+      <div className="ml-6">
         {props.description.length > 1 ? (
           <ul>
             {props.description.map((desc, index) => (
@@ -43,16 +43,16 @@ function Accomplishment(props: IAccomplishmentProps) {
   return (
     <div>
       <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center mb-2">
-        <div className="flex flex-row justify-items-center" onClick={() => setToggle(!toggle)}>
+        <div className="flex flex-row justify-items-center clickable" onClick={() => setToggle(!toggle)}>
           <FaAngleRight
-            className={`inline clickable mr-2 mt-1.75 fill-slate-800 rotate-animation ${
+            className={`inline mr-2 mt-1.75 fill-slate-800 rotate-animation ${
               toggle && "rotate-90"
             } `}
           />
           <h3 className="!mb-0">{props.title}</h3>
           {props.icon && <props.icon className="inline ml-2 mt-1.75 fill-slate-600" />}
         </div>
-        <p className="italic text-slate-800 !mb-0">{props.date}</p>
+        <p className="italic text-slate-800 !mb-0 ml-6 lg:ml">{props.date}</p>
       </div>
       <div className={`slide-animation ${toggle && "show"}`}>
         {descriptionPortion()}

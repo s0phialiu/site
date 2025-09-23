@@ -14,7 +14,7 @@ export function Resume() {
             </h2>
             <div className="grid gap-4 mb-5">
                 <Accomplishment 
-                    title="Security Software Engineer Intern at Microsoft"
+                    title="Security Software Engineer Intern - Microsoft"
                     date="May 2025 - August 2025"
                     icon={FaMicrosoft}
                     description={[
@@ -24,7 +24,7 @@ export function Resume() {
                     ]}
                 />
                 <Accomplishment
-                    title="Security Software Engineer Intern at Microsoft"
+                    title="Security Software Engineer Intern - Microsoft"
                     date="May 2024 - August 2024"
                     icon={FaMicrosoft}
                     description={[
@@ -33,7 +33,7 @@ export function Resume() {
                     ]}
                 />
                 <Accomplishment
-                    title="Security Software Engineer Intern at John Deere"
+                    title="Security Software Engineer Intern - John Deere"
                     date="May 2023 - August 2023"
                     icon={FaTractor}
                     description={[
@@ -47,7 +47,7 @@ export function Resume() {
             </h2>
             <div className="grid gap-4 mb-5">
                 <Accomplishment 
-                    title="Security Research at UIUC"
+                    title="Security Research - UIUC"
                     date="Mar 2024 - Present"
                     icon={FaUniversity}
                     description={[
@@ -64,7 +64,7 @@ export function Resume() {
                     ]}
                 />
                 <Accomplishment
-                    title="iOS Lead at HackIllinois"
+                    title="iOS Lead - HackIllinois"
                     date="Oct 2022 - May 2024"
                     icon={FaApple}
                     description={[
