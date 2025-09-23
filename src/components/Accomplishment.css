@@ -1,0 +1,15 @@
+.rotate-animation {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slide-animation {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    opacity: 0;
+  }
+  
+  .slide-animation.show {
+    max-height: 500px; /* Adjust based on content height */
+    opacity: 1;
+  }
