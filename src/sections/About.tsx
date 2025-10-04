@@ -9,7 +9,7 @@ function About() {
             I am a senior at the University of Illinois at Urbana-Champaign, pursuing a Bachelor of Science in Computer Science.
         </p>
         <p>
-        I have a passion for systems programming and cybersecurity, and I enjoy working on projects that challenge me to learn and grow in these fields. In my free time, I enjoy painting and taking landscape/wildlife photography. Check out some of my photos from hikes{" "}   
+        I have a passion for systems programming, cybersecurity, and native iOS app development. I love working on projects that challenge me to learn and grow in these fields! Currently, I'm a course assistant for CS 461 (Computer Security). In my free time, I enjoy painting and taking landscape/wildlife photography. Check out some of my photos from hikes{" "}   
         <a
           href="https://vsco.co/s0phialiu/gallery"
           target="_blank"
