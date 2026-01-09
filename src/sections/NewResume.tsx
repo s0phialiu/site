@@ -1,3 +1,8 @@
+import databricks from "../assets/databricks.png";
+import microsoft from "../assets/microsoft.png";
+import jd from "../assets/jd.png";
+import uiuc from "../assets/uiuc.png";
+
 type TimelineItem = {
   company: string;
   title: string;
@@ -13,7 +18,7 @@ const items: TimelineItem[] = [
     title: "Incoming SWE",
     year: 2026,
     href: "https://databricks.com",
-    logoSrc: "src/assets/databricks.png",
+    logoSrc: databricks,
     logoAlt: "Databricks",
   },
   {
@@ -21,7 +26,7 @@ const items: TimelineItem[] = [
     title: "AI agents for static analysis",
     year: 2025,
     href: "https://microsoft.com",
-    logoSrc: "src/assets/microsoft.png",
+    logoSrc: microsoft,
     logoAlt: "MSFT",
   },
   {
@@ -29,7 +34,7 @@ const items: TimelineItem[] = [
     title: "LLM fuzzer benchmarking",
     year: 2024,
     href: "https://microsoft.com",
-    logoSrc: "src/assets/microsoft.png",
+    logoSrc: microsoft,
     logoAlt: "MSFT",
   },
   {
@@ -37,7 +42,7 @@ const items: TimelineItem[] = [
     title: "Security automation",
     year: 2023,
     href: "https://johndeere.com",
-    logoSrc: "src/assets/jd.png",
+    logoSrc: jd,
     logoAlt: "JD",
   },
   {
@@ -45,7 +50,7 @@ const items: TimelineItem[] = [
     title: "Bachelors in CS",
     year: 2022,
     href: "https://illinois.edu/",
-    logoSrc: "src/assets/uiuc.png",
+    logoSrc: uiuc,
     logoAlt: "UIUC",
   },
 ];

@@ -1,6 +1,6 @@
 function About() {
     return (
-    <div className="!mt-10 px-3">
+    <div className="!mt-10 px-3 lg:col-span-2">
         <h1 className="font-semibold text-slate-700">
           Hi, I'm Sophia! 👋
         </h1>

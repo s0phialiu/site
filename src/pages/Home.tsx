@@ -6,7 +6,7 @@ import Footer from '../sections/Footer'
 function Home() {
   return (
    <div className="justify-center px-6 py-4 max-w-3xl mx-auto">
-      <div className="grid lg:grid-cols-2 gap-4 pb-2 mb-4 mt-2">
+      <div className="grid lg:grid-cols-3 gap-8 pb-2 mb-4 mt-2">
         <About />
         <ShareMe />
       </div>
