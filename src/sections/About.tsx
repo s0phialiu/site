@@ -5,7 +5,7 @@ function About() {
           Hi, I'm Sophia! 👋
         </h1>
         <p className="mt-3 text-md">
-          I’m a software engineer with an interest in building AI-driven security solutions and developer productivity tooling. I'm currently studying Computer Science at the University of Illinois Urbana-Champaign. 
+          I’m a software engineer with an interest in building AI-driven solutions for platform security and developer productivity. Currently, I'm studying Computer Science at the University of Illinois Urbana-Champaign. 
         </p>
         <p className="mt-3 text-md">
           In my free time, I love painting landscapes and exploring new hikes. Check out my photography {" "}   

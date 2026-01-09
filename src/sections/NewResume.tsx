@@ -62,7 +62,7 @@ export function NewResume() {
       <ul className="relative divide-y divide-slate-300 list-none p-0 m-0">
         {items.map((item) => {
           const Row = (
-            <div className="flex items-center justify-between gap-5 py-5 px-0">
+            <div className="flex items-center justify-between gap-5 py-5 px-2">
               <div className="flex min-w-0 items-center gap-4">
                 <img
                   src={item.logoSrc}
