@@ -6,12 +6,12 @@
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 600; 
 }
 
 h2 {
-  @apply text-slate-700 italic text-2xl mb-4 font-bold;
+  @apply text-slate-700 text-xl mb-4 font-bold;
 }
 
 h3 {

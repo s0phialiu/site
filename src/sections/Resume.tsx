@@ -5,12 +5,9 @@ import { FaApple, FaMicrosoft, FaTractor, FaUniversity } from "react-icons/fa"
 export function Resume() {
     return (
     <div className="">
-        <p className="">
-            Below you can find my professional experience and accomplishments.
-        </p>
         <section>
             <h2>
-                Professional Experience
+                Work Experience
             </h2>
             <div className="grid gap-4 mb-5">
                 <Accomplishment 
