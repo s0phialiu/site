@@ -47,7 +47,7 @@ const items: TimelineItem[] = [
   },
   {
     company: "UIUC",
-    title: "Bachelors in CS",
+    title: "Bachelor's in CS",
     year: 2022,
     href: "https://illinois.edu/",
     logoSrc: uiuc,
