@@ -14,15 +14,15 @@ type TimelineItem = {
 
 const items: TimelineItem[] = [
   {
-    company: "Databricks",
-    title: "Incoming SWE",
+    company: "Incoming SWE @ Databricks",
+    title: "Product infra",
     year: 2026,
     href: "https://databricks.com",
     logoSrc: databricks,
     logoAlt: "Databricks",
   },
   {
-    company: "Microsoft",
+    company: "SWE Intern @ Microsoft",
     title: "AI agents for static analysis",
     year: 2025,
     href: "https://microsoft.com",
@@ -30,7 +30,7 @@ const items: TimelineItem[] = [
     logoAlt: "MSFT",
   },
   {
-    company: "Microsoft",
+    company: "SWE Intern @ Microsoft",
     title: "LLM fuzzer benchmarking",
     year: 2024,
     href: "https://microsoft.com",
@@ -38,7 +38,7 @@ const items: TimelineItem[] = [
     logoAlt: "MSFT",
   },
   {
-    company: "John Deere",
+    company: "Security Intern @ John Deere",
     title: "Security automation",
     year: 2023,
     href: "https://johndeere.com",
@@ -47,7 +47,7 @@ const items: TimelineItem[] = [
   },
   {
     company: "UIUC",
-    title: "Bachelor's in CS",
+    title: "B.S. in Computer Science",
     year: 2022,
     href: "https://illinois.edu/",
     logoSrc: uiuc,

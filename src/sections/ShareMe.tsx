@@ -5,7 +5,7 @@ function ShareMe() {
     <div className="lg:mt-15 justify-items-center">
       <img
         src={sophiapic}
-        alt="A picture of me wearing a blue rugby style shirt against a sunset at Lake Union."
+        alt="A picture of me."
         className="lg:w-60 max-w-sm rounded-full object-cover"
       />
     </div>
