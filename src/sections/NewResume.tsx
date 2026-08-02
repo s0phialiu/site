@@ -14,8 +14,8 @@ type TimelineItem = {
 
 const items: TimelineItem[] = [
   {
-    company: "Incoming SWE @ Databricks",
-    title: "Product infra",
+    company: "SWE @ Databricks",
+    title: "UI infra",
     year: 2026,
     href: "https://databricks.com",
     logoSrc: databricks,
